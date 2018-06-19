@@ -6,7 +6,7 @@ const styles = {
     background: "#e8eaf6"
   },
   heading: {
-    background: "#db5708",
+    background: "#3f51b5",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "1.2rem",

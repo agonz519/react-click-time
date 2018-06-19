@@ -8,8 +8,6 @@ const App = () => (
     <Header />
     <Navbar />
     <Panel />
-    <Panel />
-    <Panel />
   </div>
 );
 
