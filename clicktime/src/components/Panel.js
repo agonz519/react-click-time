@@ -18,14 +18,11 @@ const styles = {
   }
 };
 
-const Panel = () => (
+const Panel = (props) => (
   <div style={styles.panel}>
     <div style={styles.heading}>Current Score: 0 - Highest Score: 0</div>
     <div style={styles.content}>
-      <img src={"http://bdfjade.com/data/out/18/5267162-cartoon-picture.png"} alt={"meh"} />
-      <img src={"http://bdfjade.com/data/out/18/5267162-cartoon-picture.png"} alt={"meh"} />
-      <img src={"http://bdfjade.com/data/out/18/5267162-cartoon-picture.png"} alt={"meh"} />
-      <img src={"http://bdfjade.com/data/out/18/5267162-cartoon-picture.png"} alt={"meh"} />
+      {props.children}
     </div>
   </div>
 );
