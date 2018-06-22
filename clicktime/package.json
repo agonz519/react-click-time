@@ -2,6 +2,7 @@
   "name": "clicktime",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://agonz519.github.io",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -9,9 +10,12 @@
     "shuffle-array": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+
   }
 }
